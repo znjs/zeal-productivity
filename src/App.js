@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import tw from "tailwind-styled-components";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <HEADER>Hello You!</HEADER>;
 }
-
+const HEADER = tw.h1`text-5xl font-bold h-screen flex justify-center items-center`;
 export default App;
