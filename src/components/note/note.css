@@ -1,0 +1,24 @@
+input[type="checkbox"] {
+    min-width: 0.625rem;
+    background-color: transparent;
+    appearance: none;
+    height: 0.9rem;
+    width: 0.9rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ff3737;
+
+}
+
+input[type="checkbox"]:checked::after {
+    content: "\2713";
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: -3.5px;
+    right: 1px;
+}
