@@ -1,8 +1,16 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import tw from "tailwind-styled-components";
+import { Home, PageNotFound, Search } from "./pages";
 
 function App() {
-  return <HEADER>Hello You!</HEADER>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </>
+  );
 }
-const HEADER = tw.h1`text-5xl font-bold h-screen flex justify-center items-center`;
 export default App;
