@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./home.css";
 import tw from "tailwind-styled-components";
 import date from "date-and-time";
@@ -17,11 +17,13 @@ function Home() {
   const [logged, setLogged] = useState(false);
   const [focus, setFocus] = useState(false);
   const { homeState, homeDispatch } = useHome();
-  const [focusText, setFocusText] = useState("");
+  const [focusText, setFocusText] = useState(
+    localStorage.getItem("focus") || ""
+  );
   const navigate = useNavigate();
   useEffect(() => {
     let userName = localStorage.getItem("userName");
-    let focusText = localStorage.getItem("focus");
+
     if (userName) {
       setUser(userName);
       setLogged(true);
@@ -94,9 +96,9 @@ function Home() {
                     value={focusText}
                     onChange={(e) => setFocusText(e.target.value)}
                     onKeyDown={(e) => {
-                      if (e.key === "Enter" && !!focusText.trim()) {
+                      if (e.key === "Enter") {
                         setFocus(true);
-                        localStorage.setItem("focus", focusText.current.value);
+                        localStorage.setItem("focus", focusText);
                       }
                     }}
                   />
