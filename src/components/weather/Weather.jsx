@@ -44,7 +44,6 @@ const Weather = () => {
     }
     setCity("");
   };
-  //TODO UNCOMMENT THE BELOW CODE
   useEffect(() => {
     setInterval(() => setNow(new Date()), 1000);
   }, []);

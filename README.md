@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# **Zeal Productivity**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Start your day with high productivity and a planned manner using zeal productivity extension. Plan ahead using Zeal extension.
 
-## Available Scripts
+- [Live link](https://zealproductivity.netlify.app/)
 
-In the project directory, you can run:
+## **Features** -
 
-### `npm start`
+1. Takes user Input which persists on reload
+2. Takes Focus of the which is editable (edit and done)
+3. Search using google search feature
+4. Detected the location and shows the current locaion weather, with a rollback default.
+5. User can enter city name and weather data will be fetched
+6. Shows different weather parameters on cick of the weather icon
+7. Todo notes which can track all the users tasks with done and remove feature
+8. A clock with formatable time - 24hr/12hrs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Built with** -
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React JS
+- React useReducer
+- Tailwind CSS
+- Tailwond Styled Components
 
-### `npm test`
+## **Learnings** -
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- How to have persistant data on reload (local Storage)
+- How to use External CSS libraries
+- Using JS Date functions
+- Using different npm packages to our advantage
+- How to search for different API's
+- How to error handling in API calls
 
-### `npm run build`
+## **Resources** -
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [FONT ASWOME](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Tailwind](https://tailwindcss.com/)
+- [Tailwind Styled Components](https://www.npmjs.com/package/tailwind-styled-components)
+- [Open Weather API](https://openweathermap.org/api)
+- [Quote API](https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Author**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Website** - [JayaSrikar K](https://jayasrikark.netlify.app/)
+- **Twitter** - [@jayasrikark](https://twitter.com/jayasrikark)
+- **LinkedIn** - [jayasrikark](https://www.linkedin.com/in/jayasrikark/)
