@@ -20,7 +20,7 @@ Start your day with high productivity and a planned manner using zeal productivi
 - React JS
 - React useReducer
 - Tailwind CSS
-- Tailwond Styled Components
+- Tailwind Styled Components
 
 ## **Learnings** -
 
