@@ -80,7 +80,7 @@ function Home() {
               </FLEXROWCONTAINER>
               {focus ? (
                 <FLEXROWCONTAINER>
-                  <MESSAGE>Your Foucus for the day is {focusText}</MESSAGE>
+                  <MESSAGE>Your Focus for the day is {focusText}</MESSAGE>
                   <FOCUSEDIT onClick={() => setFocus(false)} />
                   <FOCUSCHECK
                     onClick={() => {
